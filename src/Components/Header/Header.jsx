@@ -10,7 +10,7 @@ const Header = () => {
             <div className="logo-icon">
               <i className="fas fa-stethoscope"></i>
             </div>
-            <span className="logo-text">MedicalTech Instruments</span>
+            <span className="logo-text">SP Medical Supply</span>
           </div>
           <nav className="nav">
             <a href="#products">Products</a>

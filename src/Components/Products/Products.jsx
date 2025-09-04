@@ -19,6 +19,19 @@ import pr18 from '../../Assets/imgs/018.png'
 import pr19 from '../../Assets/imgs/019.png'
 import pr20 from '../../Assets/imgs/020.png'
 import pr21 from '../../Assets/imgs/021.png'
+import pr22 from '../../Assets/imgs/021.png'
+import pr23 from '../../Assets/imgs/023.png'
+import pr24 from '../../Assets/imgs/024.png'
+import pr25 from '../../Assets/imgs/025.png'
+import pr26 from '../../Assets/imgs/026.png'
+import pr27 from '../../Assets/imgs/027.png'
+import pr28 from '../../Assets/imgs/028.png'
+import pr29 from '../../Assets/imgs/029.png'
+import pr30 from '../../Assets/imgs/030.png'
+import pr31 from '../../Assets/imgs/031.png'
+import pr32 from '../../Assets/imgs/032.png'
+import pr33 from '../../Assets/imgs/033.png'
+
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Products.css';
@@ -186,13 +199,112 @@ const Products = () => {
       image: pr20
     },
     {
-      id: 25,
+      id: 21,
       name: "Electrocardiograph (ECG Machine)",
       description: "Advanced device to record the electrical activity of the heart",
       icon: "fas fa-heart-pulse",
       price: "$2500",
       image: pr21
-    }
+    },
+    {
+      id: 22,
+      name: "Surgical Microscope",
+      description: "High-precision microscope for neurosurgery",
+      icon: "fas fa-microscope",
+      price: "$7800",
+      image: pr22
+    },
+    {
+    id: 36,
+    name: "Ophthalmic Laser System",
+    description: "Excimer laser for advanced eye surgeries",
+    icon: "fas fa-eye-dropper",
+    price: "$7700",
+    image: pr23
+    },
+    {
+    id: 39,
+    name: "Centrifuge Machine",
+    description: "High-speed centrifuge for medical laboratories",
+    icon: "fas fa-atom",
+    price: "$2600",
+    image: pr24
+    },
+    {
+  id: 81,
+  name: "Mid-Range Ultrasound System",
+  description: "Full-featured ultrasound unit (new or certified-refurbished)",
+  icon: "fas fa-wave-square",
+  price: "$18 000",
+  image: pr31
+},
+
+    {
+    id: 33,
+    name: "Laboratory Analyzer",
+    description: "Automated blood and urine test analyzer",
+    icon: "fas fa-vials",
+    price: "$5200",
+    image: pr25
+    },
+    {
+    id: 41,
+    name: "Infusion Pump System",
+    description: "Advanced volumetric infusion pump for precise fluid delivery",
+    icon: "fas fa-syringe",
+    price: "$3100",
+    image: pr26
+    },
+    {
+  id: 26,
+  name: "ENT Treatment Unit",
+  description: "Complete workstation for ear, nose and throat procedures",
+  icon: "fas fa-head-side-mask",
+  price: "$6800",
+  image: pr27
+},
+    {
+    id: 42,
+    name: "C-Arm X-Ray Machine",
+    description: "Mobile imaging system for surgical procedures",
+    icon: "fas fa-x-ray",
+    price: "$9200",
+    image: pr28
+    },
+    {
+  id: 85,
+  name: "Anesthesia Workstation",
+  description: "State-of-the-art anesthesia delivery system",
+  icon: "fas fa-procedures",
+  price: "$20 500",
+  image: pr33
+},
+    {
+  id: 63,
+  name: "Portable Ultrasound Device",
+  description: "Lightweight ultrasound scanner with color Doppler",
+  icon: "fas fa-wave-square",
+  price: "$5800",
+  image: pr29
+},
+{
+  id: 71,
+  name: "Digital X-Ray Viewer",
+  description: "Wall-mounted medical X-ray film viewer with LED backlight",
+  icon: "fas fa-x-ray",
+  price: "$3400",
+  image: pr30
+},
+
+{
+  id: 83,
+  name: "ICU Ventilator (Advanced)",
+  description: "Modern ventilator for intensive care units",
+  icon: "fas fa-lungs",
+  price: "$17 000",
+  image: pr32
+},
+
   ];
 
   return (
